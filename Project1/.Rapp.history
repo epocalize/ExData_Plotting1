@@ -1,0 +1,298 @@
+myfunction <- function(x) {#
+	y <- rnorm(100)#
+	mean(y)#
+}
+y
+"myfunction"
+ls
+second <- function(x) {#
+	x + rnorm(length(x))#
+}
+ls
+second
+myfunction second
+"myfunction" "second"
+str(str)
+str(lm)
+str(ls)
+x<- rnorm(100, 2, 4)
+summary(x)
+str(x)
+f <- gl(40, 10)
+str(f)
+summary(f)
+library(datasets)
+head(airquality)
+str(airquality)
+s <- split(airquality, airquality$month)
+s <- split(airquality, airquality$Month)
+str(s)
+x<-4L
+4l
+4L
+x
+x<-c(4,TRUE)
+x
+x<-c(1,3,5)
+y<-c(3,2,10)
+rbind(x,y)
+x<-list(2, "a", "b", TRUE)
+x[[1]]
+x
+x<-1:4
+y<-2
+x+y
+x<-(3,5,1,10,12,6)
+x<-c(3,5,1,10,12,6)
+x[x<6]<-0
+x
+if(x>3) {
+y<-10
+}else{
+y<-0
+}
+y<-if(x>3) {
+10
+} else {
+0
+}
+x<-1:10
+y<-if(x>3) {#
++ 10#
++ } else {#
++ 0#
++ }
+for(i in 1:10){}
+print(i)
+]
+for(i in 1:10){
+print(i)
+}
+i
+print(i)
+x<-c("a", "b", "c", "d")
+x
+x<- ("a", "b", "c", "d")
+x
+for (i in 1:4) {
+print(x[i])
+}
+for(i in seq_along(x)) {
+print(x[i])
+}
+for(i in 1:4) print(x[i])
+x<-matrix(1:6,2,3)
+x
+for(i in seq_len(nrow(x))) {
+for(j in seq_len(ncol(x))) {
+print(x[i,j])
+}
+count<-0
+while(count<10) {
+print(count)
+count<-count+1
+}
+z<-5
+while(z>=3 && z<==10) {
+while(z>=3 && z<=10) {
+print(z)
+coin<-rbinom(1,1,0.5)
+if(coin==1) {
+z<-z+1
+} else {
+z<-z-1
+}
+{}
+}
+for(i in 1:100){
+if(i<=20) {
+}
+i
+print(i)
+for(i in 1:100) {
+if(i<=20){
+print(i)
+print(i){
+}
+{}
+}
+for(i in 1:100) {#
++ if(i<=20){#
++ print(i){
+for(i in 1:100) {#
++ if(i<=20){#
++ print(i)
+}
+for(i in 1:100) {#
++ if(i<=20){#
++ next
+}
+for(i in 1:100) {
+if(i<=20){
+next
+]
+for(i in 1:100) {#
++ if(i<=20){#
++ next
+}
+mean
+function(x,...)
+UseMethod("mean")
+hello
+mark<-c "i love you"
+mark
+mark<-"iloveyou"
+mark
+iloveyou
+mark<-c
+mark
+mark<-c"iloveyou"
+mark
+args(paste)
+args(paste)<-marl
+args(paste)<-mark
+args(paste)
+paste()
+paste("i","love","you")
+mark
+mark<-c paste("i","love","you")
+> mark<-cpaste("i","love","you")
+> mark<- paste("i","love","you")
+mark<-cpaste("i","love","you")
+mark<- paste ("i", "love", "you")
+mark
+y<-10
+f<-function(x){
+y<-2
+y^2 + g(x)
+}
+g<- function(x){
+x*y
+}
+f(3)
+n<- 1:4
+r<- lapply(x,rnorm)
+r<-lapply(n,rnorm)
+r
+x<-list(rnorm(100)), runif(100), rpois(100,1)
+)
+x<-list(rnorm(100)), runif(100), rpois(100,1))
+x<-list(rnorm(100), runif(100), rpois(100,1))
+x
+sapply(x, quantil, probs=c(0.25,0.75))
+sapply(x, quantile, probs=c(0.25,0.75))
+mark
+pow<- function(x=4, n=3) {
+x^n
+}
+pow()
+x<-1:10
+if(x>5){
+x<-0
+}
+library(datasets)
+data(iris)
+?iris
+iris
+[Sepal.Length]
+[$Sepal.Length]
+Sepal.Length.Vir<-iris(101:150,5)
+iris(101:150,5)
+Sepal.Length.Vir<-iris[101:150,5]
+Sepal.Length.Vir
+Sepal.Length.Vir<-iris(101:150,1)
+Sepal.Length.Vir<-iris[101:150,1]
+Sepal.Length.Vir
+mean(Sepal.Length.Vir)
+apply(iris[, 1:4], 1, mean)
+library(datasets)
+data(mtcars)
+?mtcars
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+lapply(mtcars, mean)
+split(mtcars, mtcars$cyl)
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+z<-10
+f(3)
+mtcars
+tapply(mtcars$cyl,mtcars$hp, avg)
+tapply(mtcars$cyl,mtcars$hp, mean)
+abc <- tapply(mtcars$mpg, mtcars$cyl, mean)#
+dd<-abs(abc["4"]-abc["8"])
+dd
+> abc <- tapply(mtcars$hp, mtcars$cyl, mean)#
+> dd<-abs(abc["4"]-abc["8"])
+abc <- tapply(mtcars$hp, mtcars$cyl, mean)#
+> dd<-abs(abc["4"]-abc["8"])
+abc <- tapply(mtcars$hp, mtcars$cyl, mean)
+dd<-abs(abc["4"]-abc["8"])
+dd
+debug(ls)
+ls(1:5)
+library(datasets)
+data(mtcars)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+tapply(mtcars$cyl, mtcars$mpg, mean)
+split(mtcars, mtcars$cyl)
+mean(mtcars$mpg, mtcars$cyl)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+install.packages("KernSmooth")
+library(KernSmooth)
+install.packages("swirl")
+library("swirl")
+swirl()
+load.package(swirl)
+library("swirl")
+swirl()
+x <- matrix(1:6, 2, 3)
+x
+x <- list(2, "a", "b", TRUE).
+x <- list(2, "a", "b", TRUE)
+x[[1]]
+x <- 1:4
+y <- 2:3
+x + y
+my_add <- x + y
+class(my.add)
+class(my_add)
+getwd
+setwd
+plot(dates$dateTime, dates$Sub_metering_1, type = "n", lty = 1, xlab="", ylab = "Energy sub metering")
+## Read data#
+data <- read.csv("household_power_consumption.txt", stringsAsFactors = FALSE, #
+                 na.strings = "?", header = TRUE, sep= ";", #
+                 colClasses = c("character", "character", rep("numeric", 1, 7)))#
+#
+## Subset data for desired dates + convert dates and times to desired format#
+days <- c(as.Date("2007-02-01"), as.Date("2007-02-02"))#
+data$dateTime = strptime(paste(data$Date, data$Time), "%d/%m/%Y %H:%M:%S")#
+dates <- data[as.Date(strptime(data$Date, "%d/%m/%Y")) %in% days, ]#
+#
+## Construct plot and save to PNG#
+png(file = "plot1.png", width = 480, height = 480, bg = "white")#
+#
+plot(dates$dateTime, dates$Sub_metering_1, type = "l", lty = 1, col = "black", xlab="", ylab = "Energy sub metering")#
+lines(dates$dateTime, dates$Sub_metering_2, col = "red")#
+lines(dates$dateTime, dates$Sub_metering_3, col = "blue")#
+legend("topright", lty = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))#
+#
+dev.off()
+data <- read.csv("household_power_consumption.txt", stringsAsFactors = FALSE, #
++                  na.strings = "?", header = TRUE, sep= ";", #
++                  colClasses = c("character", "character", rep("numeric", 1, 7)))
+data <- read.csv("household_power_consumption.txt", stringsAsFactors = FALSE, #
+                 na.strings = "?", header = TRUE, sep= ";", #
+                 colClasses = c("character", "character", rep("numeric", 1, 7)))
+days <- c(as.Date("2007-02-01"), as.Date("2007-02-02"))
+data$dateTime = strptime(paste(data$Date, data$Time), "%d/%m/%Y %H:%M:%S")
+dates <- data[as.Date(strptime(data$Date, "%d/%m/%Y")) %in% days, ]
+png(file = "plot1.png", width = 480, height = 480, bg = "white")
+plot(dates$dateTime, dates$Sub_metering_1, type = "l", lty = 1, col = "black", xlab="", ylab = "Energy sub metering")
+lines(dates$dateTime, dates$Sub_metering_2, col = "red")
+dev.off()
